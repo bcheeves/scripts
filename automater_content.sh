@@ -1,0 +1,10 @@
+#/bin/bash
+open -a "Google Chrome" "https://www.urlvoid.com/scan/$@"
+open -a "Google Chrome" "https://urlscan.io/search/#$@"
+open -a "Google Chrome" "https://urlquery.net/search?q=$@"
+open -a "Google Chrome" "https://www.threatcrowd.org/pivot.php?data=$@"
+open -a "Google Chrome" "https://sitecheck.sucuri.net/results/$@"
+open -a "Google Chrome" "http://malc0de.com/database/index.php?search=$@"
+open -a "Google Chrome" "https://centralops.net/co/DomainDossier.aspx?__VIEWSTATE=&dom_whois=true&dom_dns=true&traceroute=true&net_whois=true&svc_scan=true&x=13&y=15&addr=$@"
+open -a "Google Chrome" "https://www.virustotal.com/#/domain/$@"
+open -a "Google Chrome" "https://sitereview.bluecoat.com/#/lookup-result/$@"
